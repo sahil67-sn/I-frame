@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            background: linear-gradient(90deg,skyblue,purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            height: 80%;
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1{
+            height: 5%;
+            /* border: 1px solid black; */
+        }
+        .basic{
+            height: 37%;
+            width: 90%;
+            /* border: 1px solid black; */
+            margin: auto;
+            margin-top: 2%;
+        }
+        .password{
+            height: 13%;
+            width: 90%;
+            /* border: 1px solid black; */
+            margin: auto;
+            margin-top: 2%;
+        }
+        input{
+            margin-top: 2%;
+        }
+        .term{
+            width: 90%;
+            height: 20%;
+            margin: auto;
+            margin-top: 3%;
+        }
+        button{
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(90deg,skyblue,purple);
+            color: white;
+            margin-top: 3%;
+            border: none;
+            border-radius: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body> 
+    <form action="">
+        <h1 align="center">Sign-up</h1>
+        <div class="basic">
+            <label for="">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"><br>
+            <label for=""> Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"><br>
+            <label for="">DOB</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date"><br>
+            <label for="">Gender :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female<br>
+            <label for="">Mobile No.:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel"><br>
+            <label for="">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email"><br>
+            <label for="">Confirm-Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email"><br>
+        </div>
+        <div class="password">
+            <label for="">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password"><br>
+            <label for=""> Confirm Password </label>&nbsp;
+            <input type="password"><br>
+        </div>
+        <div class="term">
+            <input type="checkbox" name="" id="box">Terms & Condition <br>
+            <button>Submit</button>
+            <p align="center">already a member ? <a href="login1.html"><i>Login</i></a></p>
+        </div>
+    </form>
+
+</body>
+</html>
